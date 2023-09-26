@@ -1,9 +1,11 @@
 import React from 'react';
+import {Outlet} from "react-router-dom"
 
 const MainLayout = () => {
   return (
     <div>
-      Main Layout
+      <div>This is NavBar</div>
+      <Outlet></Outlet>
     </div>
   );
 };
