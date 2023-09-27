@@ -1,8 +1,8 @@
 import {createBrowserRouter} from "react-router-dom"
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home/Home";
-import Favorites from "../components/Favorites/Favorites";
-import Login from "../components/Login/Login";
+import Favorites from "../pages/Favorites/Favorites";
+import Login from "../pages/Login/Login";
 
 const Route = createBrowserRouter([
   {
